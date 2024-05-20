@@ -10,7 +10,13 @@ public class Main {
         char playerInterction = ' ';
         HouseSingleton houseSingleton = HouseSingleton.getInstance();
 
-        System.out.println("A normal day walking home, someone calls your name, \nthen you turn to see who it was and you lose consciousness\n");
+        System.out.println("Wellcome!!\n This game is called A HOUSE and it controls are to easy.\n You can move when you type this keys:");
+        System.out.println(" - 'n' to move for the North.\n - 's' to move for the South.\n - 'e' to move for the east.\n - 'w' to move for the West.\n - 'u' to go up.\n - 'd' to go down.");
+        System.out.println("Also you can interact with the rooms if type:");
+        System.out.println(" - 'i' if you want to investigate.\n - 'l' if you want to loot.\n - 'x' if you think that is the exit.\n - 'v' if you want to see your inventory.");
+        System.out.println("GOOD LUCK!!");
+        System.out.println("\n-----------\n  A HOUSE \n-----------");
+        System.out.println("A normal day you are walking home, someone calls your name, \nthen you turn to see who it was, and you lose consciousness...");
 
         while (!houseSingleton.isFinished){
 
